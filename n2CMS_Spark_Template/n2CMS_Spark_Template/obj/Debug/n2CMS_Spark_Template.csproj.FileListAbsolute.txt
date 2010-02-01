@@ -1,0 +1,9 @@
+C:\sourcecode\n2CMS_Spark_Template\n2CMS_Spark_Template\n2CMS_Spark_Template\bin\n2CMS_Spark_Template.dll
+C:\sourcecode\n2CMS_Spark_Template\n2CMS_Spark_Template\n2CMS_Spark_Template\bin\n2CMS_Spark_Template.pdb
+C:\sourcecode\n2CMS_Spark_Template\n2CMS_Spark_Template\n2CMS_Spark_Template\bin\Spark.dll
+C:\sourcecode\n2CMS_Spark_Template\n2CMS_Spark_Template\n2CMS_Spark_Template\bin\Spark.Web.Mvc2.dll
+C:\sourcecode\n2CMS_Spark_Template\n2CMS_Spark_Template\n2CMS_Spark_Template\bin\Spark.Web.Mvc2.pdb
+C:\sourcecode\n2CMS_Spark_Template\n2CMS_Spark_Template\n2CMS_Spark_Template\bin\Spark.pdb
+C:\sourcecode\n2CMS_Spark_Template\n2CMS_Spark_Template\n2CMS_Spark_Template\obj\Debug\ResolveAssemblyReference.cache
+C:\sourcecode\n2CMS_Spark_Template\n2CMS_Spark_Template\n2CMS_Spark_Template\obj\Debug\n2CMS_Spark_Template.dll
+C:\sourcecode\n2CMS_Spark_Template\n2CMS_Spark_Template\n2CMS_Spark_Template\obj\Debug\n2CMS_Spark_Template.pdb
