@@ -98,9 +98,9 @@
     <Content Include="Scripts\MicrosoftMvcValidation.js" />
     <Content Include="Scripts\MicrosoftMvcValidation.debug.js" />
     <None Include="Views\Account\ChangePassword.spark" />
-    <Content Include="Views\Account\ChangePasswordSuccess.aspx" />
-    <Content Include="Views\Account\LogOn.aspx" />
-    <Content Include="Views\Account\Register.aspx" />
+    <None Include="Views\Account\ChangePasswordSuccess.spark" />
+    <None Include="Views\Account\LogOn.spark" />
+    <None Include="Views\Account\Register.spark" />
     <None Include="Views\Home\About.spark">
     </None>
     <None Include="Views\Shared\Error.spark">

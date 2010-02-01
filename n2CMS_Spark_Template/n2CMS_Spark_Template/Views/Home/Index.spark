@@ -1,5 +1,5 @@
 ﻿<content name="title">
-My Sparked MVC Application
+    My Sparked MVC Application
 </content>
 <h2>${H(ViewData["Message"])}</h2>
 <p>
