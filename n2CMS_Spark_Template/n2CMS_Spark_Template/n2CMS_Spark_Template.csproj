@@ -97,14 +97,15 @@
     <Content Include="Scripts\MicrosoftMvcAjax.debug.js" />
     <Content Include="Scripts\MicrosoftMvcValidation.js" />
     <Content Include="Scripts\MicrosoftMvcValidation.debug.js" />
-    <Content Include="Views\Account\ChangePassword.aspx" />
+    <None Include="Views\Account\ChangePassword.spark" />
     <Content Include="Views\Account\ChangePasswordSuccess.aspx" />
     <Content Include="Views\Account\LogOn.aspx" />
     <Content Include="Views\Account\Register.aspx" />
     <None Include="Views\Home\About.spark">
+    </None>
+    <None Include="Views\Shared\Error.spark">
       <SubType>ASPXCodeBehind</SubType>
     </None>
-    <Content Include="Views\Shared\Error.aspx" />
     <None Include="Views\Shared\_LogOnUserControl.spark" />
     <Content Include="Views\Web.config" />
   </ItemGroup>
