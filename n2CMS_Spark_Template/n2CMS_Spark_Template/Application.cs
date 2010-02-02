@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Web.Mvc;
 using System.Web.Routing;
-using n2CMS_Spark_Template.Spark;
 using Spark;
 using Spark.Web.Mvc;
 
@@ -25,8 +24,7 @@ namespace n2CMS_Spark_Template
 		{
 			if (engines == null) throw new ArgumentNullException("engines");
 			ISparkSettings  settings = new SparkSettings();
-			settings.PageBaseType = typeof (MySparkView).FullName;
-			SparkEngineStarter.RegisterViewEngine(engines, settings);
+			SparkEngineStarter.RegisterViewEngine(engines);
 		}
 	}
 }
