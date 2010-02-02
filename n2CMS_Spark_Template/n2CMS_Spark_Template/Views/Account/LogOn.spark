@@ -1,41 +1,45 @@
-﻿<content name="title">
+﻿<viewdata model="n2CMS_Spark_Template.Models.LogOnModel" Register="string"/>
+
+<content name="title">
     Log On
 </content>   
 <h2>Log On</h2>
 <p>
     Please enter your username and password. !{Html.ActionLink("Register", "Register")} if you don't have an account.
 </p>
-!{Html.ValidationSummary(true, "Login was unsuccessful. Please correct the errors and try again.")}
+<div>
+  !{Html.ValidationSummary(true, "Login was unsuccessful. Please correct the errors and try again.")}
 
-#Using Html.BeginForm()
-    <div>
-        <fieldset>
-            <legend>Account Information</legend>
-            
-            <div class="editor-label">
-                !{Html.LabelFor(m => m.UserName)}
-            </div>
-            <div class="editor-field">
-                !{Html.TextBoxFor(m => m.UserName)}
-                !{Html.ValidationMessageFor(m => m.UserName)}
-            </div>
-            
-            <div class="editor-label">
-                !{Html.LabelFor(m => m.Password)}
-            </div>
-            <div class="editor-field">
-                !{Html.PasswordFor(m => m.Password)}
-                !{Html.ValidationMessageFor(m => m.Password)}
-            </div>
-            
-            <div class="editor-label">
-                !{Html.CheckBoxFor(m => m.RememberMe)}
-                !{Html.LabelFor(m => m.RememberMe)}
-            </div>
-            
-            <p>
-                <input type="submit" value="Log On" />
-            </p>
-        </fieldset>
-    </div>
-#End Using
+# Html.BeginForm();
+  <div>
+    <fieldset>
+      <legend>Account Information</legend>
+
+      <div class="editor-label">
+        ${Html.LabelFor(m => m.UserName)}
+      </div>
+      <div class="editor-field">
+        ${Html.TextBoxFor(m => m.UserName)}
+        ${Html.ValidationMessageFor(m => m.UserName)}
+      </div>
+
+      <div class="editor-label">
+        ${Html.LabelFor(m => m.Password)}
+      </div>
+      <div class="editor-field">
+        ${Html.PasswordFor(m => m.Password)}
+        ${Html.ValidationMessageFor(m => m.Password)}
+      </div>
+
+      <div class="editor-label">
+        ${Html.CheckBoxFor(m => m.RememberMe)}
+        ${Html.LabelFor(m => m.RememberMe)}
+      </div>
+
+      <p>
+        <input type="submit" value="Log On" />
+      </p>
+    </fieldset>
+  </div>
+# Html.EndForm();
+</div>
